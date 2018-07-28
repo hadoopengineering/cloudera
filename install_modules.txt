@@ -1,0 +1,9 @@
+Rest API call to start Cloudera 
+
+Install epel-relese and pip 
+yum install epel-release
+yum install python-pip
+
+Install configparser and cm-api python modules 
+pip install configparser
+pip install cm-api

@@ -1,0 +1,12 @@
+Authentication Backend Order -> External then Database
+External Authentication Type -> LDAP
+LDAP URL ->  ldap://ip-172-31-24-236.ap-southeast-1.compute.internal:389
+LDAP Bind User Distinguished Name ->  cn=Manager,dc=hadoop,dc=com
+LDAP Bind Password -> Provide the password
+LDAP User Search Filter ->  (uid={0})
+LDAP User Search Base ->  ou=cmusers,dc=hadoop,dc=com
+LDAP Group Search Filter ->  objectClass=posixGroup
+LDAP Group Search Base ->  ou=cmusers,dc=hadoop,dc=com
+LDAP Distinguished Name Pattern ->  uid={0},ou=cmusers,dc=hadoop,dc=com
+
+ou=cloudera,dc=hadoop,dc=com
